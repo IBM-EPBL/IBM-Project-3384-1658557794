@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Plasma includes antibodies that help you fight illness. It's chock-full of proteins that drug manufacturers can utilize to build life-saving drugs, but it's in short supply. The demand for plasma is considerably greater now because the COVID-19 outbreak disrupted plasma collections across the country.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src=" images.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Anusudha</h2>
+        <p class="title">team leader</p>
+        <p>Team leaders are responsible for training team members, setting strategy and monitoring progress towards goals.</p>
+        <p>anusudha160@gmail.com</p>
+        <p><button class="button">Contact:9894596603</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Jeeva</h2>
+        <p class="title">team member</p>
+        <p>Valuable team members should be experts in their chosen disciplines – they shouldn’t be expected to switch roles with one another when there isn’t a major overlap in competencie.</p>
+        <p>jeevakaruppiah21@gmail..com</p>
+        <p><button class="button">Contact:6374646402</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>kaviya</h2>
+        <p class="title">team member</p>
+        <p>Valuable team members should be experts in their chosen disciplines – they shouldn’t be expected to switch roles with one another when there isn’t a major overlap in competencie.</p>
+        <p>kavyakutti2020@gmail.com</p>
+        <p><button class="button">Contact:7806887541</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="column">
+    <div class="card">
+      <img src="images.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Sopitha</h2>
+        <p class="title">team member</p>
+        <p>Valuable team members should be experts in their chosen disciplines – they shouldn’t be expected to switch roles with one another when there isn’t a major overlap in competencie.</p>
+        <p>muthuselvamabi19078@gmail..com</p>
+        <p><button class="button">Contact:7904754363</button></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
