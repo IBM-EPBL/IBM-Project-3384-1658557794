@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.btn {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    transform: translateY(-150px);
+}
+.btn::before {
+    content: "f0f3";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 1.6em;
+    transform: translate(-50%, -50%);
+}
+.btn:checked ~ .box {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+} /* box */
+.box {
+    width: 350px;
+    margin-top: 2em;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    transition: all 0.4s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+.header a {
+    text-decoration: none;
+}
+.content {
+    width: 100%;
+}
+.notification {
+    width: 350px;
+    padding: 0.6em 1em;
+    display: flex;
+    align-items: center;
+}
+.notification img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 0.5em;
+}
+.notification .text p {
+    font-size: 0.8em;
+}
+.notification .text p span {
+    font-weight: 700;
+}
+.notification .text .time {
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.61);
+}
