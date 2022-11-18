@@ -1,0 +1,295 @@
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.full-page
+
+{
+
+    height: 100vh;
+
+    width: 100%;
+	 
+background-image:url('C:\Users\user\Desktop\Project\image1.jpg');
+
+    position: absolute;
+
+}
+
+.sub-page
+
+{
+
+    width: 1266px;
+
+    height: 559px;
+
+    position: absolute;
+
+    background-image: url('C:\Users\user\Desktop\Project\giphy.jpeg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    left: 50px;
+
+    top: 50px;
+
+}
+
+.navigation-bar
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px;
+
+    padding-left: 80px;
+
+    padding-right: 30px;
+
+    padding-top: 50px;
+
+}
+
+.logo
+
+{
+
+    position: fixed;
+
+    margin-top: 10px;
+
+}
+
+.logo a
+
+{
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 30px;
+
+}
+
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+
+}
+
+nav ul 
+
+{
+
+    display: inline-block;
+
+    list-style: none;
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+    margin-top: 17px;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: Red;
+
+    font-family: sans-serif;
+
+}
+
+nav ul li a:hover
+
+{
+
+    color: saddlebrown;
+
+}
+
+.row
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+    flex-basis: 50%;
+
+    min-width: 300px;
+
+}
+
+.form-box
+
+{
+
+    width: 300px;
+
+	height: 400px;
+
+	position: relative;
+
+    top: 50px;
+
+    left: 120px;
+
+	background: rgba(0,0,0,0.6);
+
+}
+
+.main-heading
+
+{
+
+    color: orangered;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+
+}
+
+.form input
+
+{
+
+	font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background: coral;
+
+}
+
+.form .message
+
+{
+
+    font-size: 12px;
+
+	margin: 15px 0 0;
+
+    color: white;
+
+}
+
+.form .message a
+
+{
+
+	color: orangered;
+
+	text-decoration: none;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+
+.defination
+
+{
+
+    text-align: left;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family: 'Kaushan Script', cursive;
+
+    padding-left: 60px;
+
+}
